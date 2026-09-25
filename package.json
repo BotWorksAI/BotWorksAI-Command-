@@ -1,0 +1,32 @@
+{
+  "name": "botworks-command-center",
+  "version": "1.0.0",
+  "description": "Autonomous all-in-one internal agency operations bot for BotWorks AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "discord-bot",
+    "discord.js",
+    "agency-bot",
+    "lead-scout",
+    "billing-sentinel",
+    "sparked-host",
+    "botworks"
+  ],
+  "author": "BotWorks AI",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "better-sqlite3": "^11.8.1",
+    "cheerio": "^1.0.0",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
